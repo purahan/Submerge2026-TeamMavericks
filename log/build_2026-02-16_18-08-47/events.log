@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.001336] (joystick_pacs) JobQueued: {'identifier': 'joystick_pacs', 'dependencies': OrderedDict()}
+[0.001429] (joystick_pacs) JobStarted: {'identifier': 'joystick_pacs'}
+[0.099755] (-) TimerEvent: {}
+[0.200433] (-) TimerEvent: {}
+[0.301146] (-) TimerEvent: {}
+[0.401816] (-) TimerEvent: {}
+[0.502505] (-) TimerEvent: {}
+[0.602898] (-) TimerEvent: {}
+[0.703561] (-) TimerEvent: {}
+[0.804234] (-) TimerEvent: {}
+[0.904870] (-) TimerEvent: {}
+[1.005455] (-) TimerEvent: {}
+[1.106046] (-) TimerEvent: {}
+[1.206660] (-) TimerEvent: {}
+[1.307343] (-) TimerEvent: {}
+[1.322239] (joystick_pacs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joystick_pacs', 'build', '--build-base', '/home/purahan/rov_ws/build/joystick_pacs/build', 'install', '--record', '/home/purahan/rov_ws/build/joystick_pacs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/purahan/rov_ws/src/joystick_pacs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'purahan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/purahan/auv_ws/install/nemo_interfaces/lib:/home/purahan/auv_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/purahan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1783', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=796bef741725decc6f02428669930e50', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/purahan/auv_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'purahan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'purahan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/purahan/.cargo/bin:/home/purahan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/purahan-ubuntu:@/tmp/.ICE-unix/1783,unix/purahan-ubuntu:/tmp/.ICE-unix/1783', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/17a0ddab_0f06_4d86_8888_fc7e8edeefeb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.138', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/purahan/auv_ws/install/sauvc_vision:/home/purahan/auv_ws/install/nemo_controller:/home/purahan/auv_ws/install/joystick_pacs:/home/purahan/auv_ws/install/nemo_interfaces:/home/purahan/auv_ws/install/nemo_description:/home/purahan/auv_ws/install/nemo_bringup:/home/purahan/auv_ws/install/camera_streamer:/home/purahan/auv_ws/install/custom_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/purahan/rov_ws/build/joystick_pacs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=796bef741725decc6f02428669930e50', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/purahan/rov_ws/build/joystick_pacs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages:/home/purahan/auv_ws/install/sauvc_vision/lib/python3.10/site-packages:/home/purahan/auv_ws/install/nemo_controller/lib/python3.10/site-packages:/home/purahan/auv_ws/install/joystick_pacs/lib/python3.10/site-packages:/home/purahan/auv_ws/install/nemo_interfaces/local/lib/python3.10/dist-packages:/home/purahan/auv_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/purahan/auv_ws/install/nemo_interfaces:/home/purahan/auv_ws/install/nemo_description:/home/purahan/auv_ws/install/nemo_bringup:/home/purahan/auv_ws/install/camera_streamer:/home/purahan/auv_ws/install/custom_interfaces'}, 'shell': False}
+[1.407752] (-) TimerEvent: {}
+[1.508429] (-) TimerEvent: {}
+[1.609110] (-) TimerEvent: {}
+[1.709724] (-) TimerEvent: {}
+[1.810277] (-) TimerEvent: {}
+[1.845643] (joystick_pacs) StdoutLine: {'line': b'running egg_info\n'}
+[1.846704] (joystick_pacs) StdoutLine: {'line': b'creating ../../build/joystick_pacs/joystick_pacs.egg-info\n'}
+[1.847103] (joystick_pacs) StdoutLine: {'line': b'writing ../../build/joystick_pacs/joystick_pacs.egg-info/PKG-INFO\n'}
+[1.847575] (joystick_pacs) StdoutLine: {'line': b'writing dependency_links to ../../build/joystick_pacs/joystick_pacs.egg-info/dependency_links.txt\n'}
+[1.847993] (joystick_pacs) StdoutLine: {'line': b'writing entry points to ../../build/joystick_pacs/joystick_pacs.egg-info/entry_points.txt\n'}
+[1.848307] (joystick_pacs) StdoutLine: {'line': b'writing requirements to ../../build/joystick_pacs/joystick_pacs.egg-info/requires.txt\n'}
+[1.848637] (joystick_pacs) StdoutLine: {'line': b'writing top-level names to ../../build/joystick_pacs/joystick_pacs.egg-info/top_level.txt\n'}
+[1.849044] (joystick_pacs) StdoutLine: {'line': b"writing manifest file '../../build/joystick_pacs/joystick_pacs.egg-info/SOURCES.txt'\n"}
+[1.852257] (joystick_pacs) StdoutLine: {'line': b"reading manifest file '../../build/joystick_pacs/joystick_pacs.egg-info/SOURCES.txt'\n"}
+[1.853729] (joystick_pacs) StdoutLine: {'line': b"writing manifest file '../../build/joystick_pacs/joystick_pacs.egg-info/SOURCES.txt'\n"}
+[1.854063] (joystick_pacs) StdoutLine: {'line': b'running build\n'}
+[1.854211] (joystick_pacs) StdoutLine: {'line': b'running build_py\n'}
+[1.854511] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/build/joystick_pacs/build\n'}
+[1.854978] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/build/joystick_pacs/build/lib\n'}
+[1.855191] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.855417] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/imu_publisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.855689] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/simple_serial_publisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.855914] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/sauvc_quali_task.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.856036] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/armPublisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.856241] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/serialPublisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.856434] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/js_test.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.856619] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/__init__.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.856809] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/JoyPublisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.857074] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/calibrationNode.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.857416] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/controlled_publisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.857787] (joystick_pacs) StdoutLine: {'line': b'copying joystick_pacs/esp32_bridge.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs\n'}
+[1.858485] (joystick_pacs) StdoutLine: {'line': b'running install\n'}
+[1.859123] (joystick_pacs) StdoutLine: {'line': b'running install_lib\n'}
+[1.860461] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.860927] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/imu_publisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.861146] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/simple_serial_publisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.861375] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/sauvc_quali_task.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.861522] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/armPublisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.861718] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/serialPublisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.861893] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/js_test.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.862168] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/__init__.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.862426] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/JoyPublisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.862660] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/calibrationNode.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.862891] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/controlled_publisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.863113] (joystick_pacs) StdoutLine: {'line': b'copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/esp32_bridge.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs\n'}
+[1.864266] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/imu_publisher.py to imu_publisher.cpython-310.pyc\n'}
+[1.868470] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/simple_serial_publisher.py to simple_serial_publisher.cpython-310.pyc\n'}
+[1.869882] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/sauvc_quali_task.py to sauvc_quali_task.cpython-310.pyc\n'}
+[1.871376] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/armPublisher.py to armPublisher.cpython-310.pyc\n'}
+[1.872554] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/serialPublisher.py to serialPublisher.cpython-310.pyc\n'}
+[1.873927] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/js_test.py to js_test.cpython-310.pyc\n'}
+[1.874723] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/__init__.py to __init__.cpython-310.pyc\n'}
+[1.875133] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/JoyPublisher.py to JoyPublisher.cpython-310.pyc\n'}
+[1.877648] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/calibrationNode.py to calibrationNode.cpython-310.pyc\n'}
+[1.879402] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/controlled_publisher.py to controlled_publisher.cpython-310.pyc\n'}
+[1.881565] (joystick_pacs) StdoutLine: {'line': b'byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/esp32_bridge.py to esp32_bridge.cpython-310.pyc\n'}
+[1.882619] (joystick_pacs) StdoutLine: {'line': b'running install_data\n'}
+[1.883062] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/install/joystick_pacs/share/ament_index\n'}
+[1.883294] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/install/joystick_pacs/share/ament_index/resource_index\n'}
+[1.883456] (joystick_pacs) StdoutLine: {'line': b'creating /home/purahan/rov_ws/install/joystick_pacs/share/ament_index/resource_index/packages\n'}
+[1.883751] (joystick_pacs) StdoutLine: {'line': b'copying resource/joystick_pacs -> /home/purahan/rov_ws/install/joystick_pacs/share/ament_index/resource_index/packages\n'}
+[1.883921] (joystick_pacs) StdoutLine: {'line': b'copying package.xml -> /home/purahan/rov_ws/install/joystick_pacs/share/joystick_pacs\n'}
+[1.884037] (joystick_pacs) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.887305] (joystick_pacs) StdoutLine: {'line': b'Copying ../../build/joystick_pacs/joystick_pacs.egg-info to /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs-0.0.0-py3.10.egg-info\n'}
+[1.889403] (joystick_pacs) StdoutLine: {'line': b'running install_scripts\n'}
+[1.910480] (-) TimerEvent: {}
+[1.931509] (joystick_pacs) StdoutLine: {'line': b'Installing armPub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.931878] (joystick_pacs) StdoutLine: {'line': b'Installing calibration_node script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.932197] (joystick_pacs) StdoutLine: {'line': b'Installing controlled_pub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.932380] (joystick_pacs) StdoutLine: {'line': b'Installing esp32_bridge script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.932718] (joystick_pacs) StdoutLine: {'line': b'Installing imu_pub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.932964] (joystick_pacs) StdoutLine: {'line': b'Installing joy_node script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.933245] (joystick_pacs) StdoutLine: {'line': b'Installing quali_state_machine script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.933395] (joystick_pacs) StdoutLine: {'line': b'Installing serialPub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.933757] (joystick_pacs) StdoutLine: {'line': b'Installing simple_serial_pub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs\n'}
+[1.934361] (joystick_pacs) StdoutLine: {'line': b"writing list of installed files to '/home/purahan/rov_ws/build/joystick_pacs/install.log'\n"}
+[1.988294] (joystick_pacs) CommandEnded: {'returncode': 0}
+[2.011760] (-) TimerEvent: {}
+[2.015223] (joystick_pacs) JobEnded: {'identifier': 'joystick_pacs', 'rc': 0}
+[2.016465] (-) EventReactorShutdown: {}

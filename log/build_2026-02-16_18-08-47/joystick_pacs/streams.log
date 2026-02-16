@@ -1,0 +1,72 @@
+[1.322s] Invoking command in '/home/purahan/rov_ws/src/joystick_pacs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/purahan/rov_ws/build/joystick_pacs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joystick_pacs build --build-base /home/purahan/rov_ws/build/joystick_pacs/build install --record /home/purahan/rov_ws/build/joystick_pacs/install.log --single-version-externally-managed install_data
+[1.844s] running egg_info
+[1.845s] creating ../../build/joystick_pacs/joystick_pacs.egg-info
+[1.846s] writing ../../build/joystick_pacs/joystick_pacs.egg-info/PKG-INFO
+[1.846s] writing dependency_links to ../../build/joystick_pacs/joystick_pacs.egg-info/dependency_links.txt
+[1.847s] writing entry points to ../../build/joystick_pacs/joystick_pacs.egg-info/entry_points.txt
+[1.847s] writing requirements to ../../build/joystick_pacs/joystick_pacs.egg-info/requires.txt
+[1.847s] writing top-level names to ../../build/joystick_pacs/joystick_pacs.egg-info/top_level.txt
+[1.848s] writing manifest file '../../build/joystick_pacs/joystick_pacs.egg-info/SOURCES.txt'
+[1.851s] reading manifest file '../../build/joystick_pacs/joystick_pacs.egg-info/SOURCES.txt'
+[1.853s] writing manifest file '../../build/joystick_pacs/joystick_pacs.egg-info/SOURCES.txt'
+[1.853s] running build
+[1.853s] running build_py
+[1.853s] creating /home/purahan/rov_ws/build/joystick_pacs/build
+[1.854s] creating /home/purahan/rov_ws/build/joystick_pacs/build/lib
+[1.854s] creating /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.854s] copying joystick_pacs/imu_publisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.854s] copying joystick_pacs/simple_serial_publisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.855s] copying joystick_pacs/sauvc_quali_task.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.855s] copying joystick_pacs/armPublisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.855s] copying joystick_pacs/serialPublisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.855s] copying joystick_pacs/js_test.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.855s] copying joystick_pacs/__init__.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.855s] copying joystick_pacs/JoyPublisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.856s] copying joystick_pacs/calibrationNode.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.856s] copying joystick_pacs/controlled_publisher.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.856s] copying joystick_pacs/esp32_bridge.py -> /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs
+[1.857s] running install
+[1.858s] running install_lib
+[1.859s] creating /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.860s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/imu_publisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.860s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/simple_serial_publisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.860s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/sauvc_quali_task.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.860s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/armPublisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.860s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/serialPublisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.861s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/js_test.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.861s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/__init__.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.861s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/JoyPublisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.861s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/calibrationNode.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.862s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/controlled_publisher.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.862s] copying /home/purahan/rov_ws/build/joystick_pacs/build/lib/joystick_pacs/esp32_bridge.py -> /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs
+[1.863s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/imu_publisher.py to imu_publisher.cpython-310.pyc
+[1.867s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/simple_serial_publisher.py to simple_serial_publisher.cpython-310.pyc
+[1.869s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/sauvc_quali_task.py to sauvc_quali_task.cpython-310.pyc
+[1.870s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/armPublisher.py to armPublisher.cpython-310.pyc
+[1.871s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/serialPublisher.py to serialPublisher.cpython-310.pyc
+[1.873s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/js_test.py to js_test.cpython-310.pyc
+[1.873s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/__init__.py to __init__.cpython-310.pyc
+[1.874s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/JoyPublisher.py to JoyPublisher.cpython-310.pyc
+[1.876s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/calibrationNode.py to calibrationNode.cpython-310.pyc
+[1.878s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/controlled_publisher.py to controlled_publisher.cpython-310.pyc
+[1.880s] byte-compiling /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs/esp32_bridge.py to esp32_bridge.cpython-310.pyc
+[1.881s] running install_data
+[1.882s] creating /home/purahan/rov_ws/install/joystick_pacs/share/ament_index
+[1.882s] creating /home/purahan/rov_ws/install/joystick_pacs/share/ament_index/resource_index
+[1.882s] creating /home/purahan/rov_ws/install/joystick_pacs/share/ament_index/resource_index/packages
+[1.882s] copying resource/joystick_pacs -> /home/purahan/rov_ws/install/joystick_pacs/share/ament_index/resource_index/packages
+[1.883s] copying package.xml -> /home/purahan/rov_ws/install/joystick_pacs/share/joystick_pacs
+[1.883s] running install_egg_info
+[1.886s] Copying ../../build/joystick_pacs/joystick_pacs.egg-info to /home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages/joystick_pacs-0.0.0-py3.10.egg-info
+[1.888s] running install_scripts
+[1.930s] Installing armPub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.931s] Installing calibration_node script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.931s] Installing controlled_pub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.931s] Installing esp32_bridge script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.931s] Installing imu_pub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.932s] Installing joy_node script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.932s] Installing quali_state_machine script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.932s] Installing serialPub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.932s] Installing simple_serial_pub script to /home/purahan/rov_ws/install/joystick_pacs/lib/joystick_pacs
+[1.933s] writing list of installed files to '/home/purahan/rov_ws/build/joystick_pacs/install.log'
+[1.987s] Invoked command in '/home/purahan/rov_ws/src/joystick_pacs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/purahan/rov_ws/build/joystick_pacs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/purahan/rov_ws/install/joystick_pacs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joystick_pacs build --build-base /home/purahan/rov_ws/build/joystick_pacs/build install --record /home/purahan/rov_ws/build/joystick_pacs/install.log --single-version-externally-managed install_data
